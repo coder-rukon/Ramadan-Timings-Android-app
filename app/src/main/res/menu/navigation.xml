@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/icon_time_list"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/dua_list"
+        android:icon="@drawable/dua_hands"
+        android:title="@string/title_dua" />
+    <item
+        android:id="@+id/roja_vonger_karon"
+        android:icon="@drawable/dont_do"
+        android:title="@string/title_roja_vangar_karon" />
+
+</menu>

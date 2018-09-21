@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Title"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryLight"
+        android:padding="5dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/title"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:textDirection="rtl"
+        android:textSize="18dp"
+        android:textColor="@color/paragrapColor"
+        android:layout_marginTop="10dp"
+        android:text="arabic_content"
+        android:id="@+id/arabic_content"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/paragrapColor"
+            android:text="@string/titleBanglaUcharon"
+            android:id="@+id/bangla_conentTitle"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="@color/paragrapColor"
+            android:layout_marginTop="5dp"
+            android:text="dsfdsf afdf fds fsaf asdfdsf  fdasf dfafdf fdaf"
+            android:id="@+id/bangla_conent"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:id="@+id/banglaOrthoRow"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/paragrapColor"
+            android:text="@string/titleBanglaMenaing"
+            android:id="@+id/bng_meaning2"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="@color/paragrapColor"
+            android:layout_marginTop="5dp"
+            android:text="Bangla Meaning"
+            android:id="@+id/bng_meaning"
+            />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#02872c</color>
+    <color name="colorPrimaryLight">#52d87e</color>
+    <color name="colorPrimaryDark">#b8f0ca</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorTextPrimary">#ccc</color>
+    <color name="bgLight">#ffe9ff</color>
+    <color name="colorTextLight">#d500f9</color>
+    <color name="paragrapColor">#777</color>
+    <color name="subtitleWelcome">#d500f9</color>
+</resources>
